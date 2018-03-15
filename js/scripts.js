@@ -10,6 +10,7 @@ Button.prototype = {
 		this.$element.click(function() {
 			alert(self.text);
 		});
+	}
 }
 
 var btn1 = new Button('Hello!');
